@@ -1,0 +1,45 @@
+h2 {
+    margin-bottom: 0.6em;
+}
+
+h3, p {
+    padding: 0.5em;
+}
+
+section {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+section div {
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+.row-cols-1>* {
+    width: 95%;
+    margin: 2.5%;
+}
+
+@media (min-width: 576px) {
+    .row-cols-sm-2>* {
+        flex: 0 0 auto;
+        width: 45%;
+        margin: 2.5%
+    }
+
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 95%;
+        margin: 2.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .row-cols-md-3>* {
+        flex: 0 0 auto;
+        width: 30.3333333333%;
+        margin: 1.5%
+    }
+}
+
